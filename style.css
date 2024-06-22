@@ -1,0 +1,322 @@
+* {
+  padding: 0%;
+  margin: 0%;
+
+}
+body {
+  background-color: black;
+  /* background-color: white; */
+}
+
+.main {
+  background-image: url("./Assets/image/netflix_bg.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: none;
+  background-position: center center;
+  position: relative;
+}
+
+.main .box {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
+
+.navbar-section {
+  max-width: 80vw;
+  /* justify-content: space-between; */
+  margin: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  height: 100px;
+  position: relative;
+  z-index: 10;
+  padding: 10px;
+}
+
+.hero {
+  font-family: "Merriweather", serif;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  z-index: 1;
+  gap: 15px;
+  padding: 0 30px;
+}
+
+.hero .h1 {
+  font-weight: bolder;
+  font-size: 48px;
+}
+.hero .h2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.hero .h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.input-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.email-address {
+  padding: 10px 101px 8px 20px;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.get-start {
+  padding: 5px 25px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.separation {
+  border: 5px solid rgb(46, 44, 44);
+}
+
+.section-tv-video {
+  margin: 12px !important;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  max-width: 100%;
+  margin: auto;
+  color: white;
+  align-items: center;
+  overflow: hidden;
+  height: 75vh;
+}
+
+.section-tv-video .container {
+  margin: 0 !important;
+}
+
+.text {
+  font-family: "Fondamento", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 25px !important;
+}
+
+.tv-video-t1 h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.tv-video-t1 h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.secImg {
+  position: relative;
+}
+
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.secImg video {
+  position: absolute;
+  top: 87px;
+  right: 0px;
+  width: 406px;
+  left: 73px;
+}
+.section-phone {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.separation {
+  border: 5px solid rgb(46, 44, 44);
+}
+
+.section-tv-video {
+  margin: 12px !important;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  max-width: 100%;
+  margin: auto;
+  color: white;
+  align-items: center;
+  overflow: hidden;
+  height: 75vh;
+}
+
+.text {
+  font-family: "Fondamento", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 25px !important;
+}
+
+.secImg {
+  position: relative;
+}
+
+.secImg img {
+  width: 100%;
+  max-width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 24px;
+  background-color: #2d2d2d;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.faqbox .text{
+  font-size: 20px;
+}
+
+footer .row {
+  color: white;
+  padding: 60px 0;
+}
+
+footer .questions {
+  padding: 34px 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer .footer-item{
+  color: white;
+}

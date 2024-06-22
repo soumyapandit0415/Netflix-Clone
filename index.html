@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fondamento:ital@0;1&family=Kalam:wght@300;400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NG+Modern:wght@100..400&family=Sacramento&family=Xanh+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <!-- NAVBAR -->
+        <div class="navbar-section px-3 py-2">
+            <div class="container d-flex flex-wrap align-items-center justify-content-between mt-3">
+                <a class="navbar-brand logo mb-2">
+                    <img src="./Assets/image/netflix_logo-1.svg" alt="Netflix-Logo" width="50%">
+                </a>
+
+                <div class="dropdown">
+                    <button type="button" class="btn btn-outline-light me-2 dropdown-toggle" data-bs-toggle="dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-translate" viewBox="0 0 16 16">
+                            <path
+                                d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31" />
+                        </svg>
+                        English
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                    </ul>
+
+                    <!-- <button type="button" class="btn btn-danger ms-lg-2"><a href="./sign-in.html"></a>Sign-up</button> -->
+                    <button type="button" class="btn btn-danger ms-lg-2">
+                        <a href="./sign-in.html" class="text-white text-decoration-none">Sign-up</a>
+                      </button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+        </div>
+        <div class="hero">
+            <!-- COVERPAGE - TEXT -->
+            <span class="h1">Unlimited movies, TV shows and more</span>
+            <span class="h2">Watch anywhere. Cancel anytime.</span>
+            <span class="h3">Ready to watch? Enter your email to create or restart your membership.</span>
+            <div class="input-button">
+                <input type="email" placeholder="Email Address" class="email-address">
+                <button class="btn btn-danger get-start">Get Started
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+
+    <div class="section-tv-video">
+        <!--  -->
+        <div class="container my-1">
+            <div class="row p-1 pb-0 pe-lg-0 pt-lg-1 align-items-center">
+                <div class="text col-lg-5 p-lg-1 pt-lg-2">
+                    <span class="tv-video-t1">
+                        <h1>Enjoy on your TV</h1>
+                    </span>
+                    <span class="tv-video-t2">
+                        <h4>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h4>
+                    </span>
+                </div>
+                <div class="secImg col-lg-6 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+                    <video
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                        autoplay loop muted></video>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="separation"></div>
+
+    <div class="section-phone">
+        <div class="container my-1">
+            <div class="row p-1 pb-0 pe-lg-0 pt-lg-1 align-items-center">
+                <div class="phnImg col-lg-6 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img src="./Assets/image/mobile-0819.jpg" alt="Mobile">
+                </div>
+
+                <div class="text text-phone col-lg-5 p-lg-1 pt-lg-2">
+                    <div class="row">
+                        <h1>Download your shows to watch offline</h1>
+                    </div>
+                    <div class="row">
+                        <h5>Save your favorites easily and always have something to watch.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separation"></div>
+
+    <section class="first second">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="secImg">
+                        <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <span class="text">
+                            <h1>Create profiles for kids</h1>
+                        </span>
+                        <span class="text">
+                            <h5>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h5>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="separation"></div>
+    
+    <section class="faq">
+        <div class="container d-flex flex-column align-items-center justify-content-center px-1">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faqbox row align-items-center w-100 mt-2 m-0">
+                <span class="text col-10">What is NetFlix</span>
+                <div class="col-2 text-right">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="faqbox row align-items-center w-100 mt-1 m-0">
+                <span class="text col-10">What can I watch on Netflix</span>
+                <div class="col-2 text-right">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="faqbox row align-items-center w-100 mt-1 m-0">
+                <span class="text col-10">How much does Netflix cost?</span>
+                <div class="col-2 text-right">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="faqbox row align-items-center w-100 mt-1 m-0">
+                <span class="text col-10">Where can I watch?</span>
+                <div class="col-2 text-right">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="faqbox row align-items-center w-100 mt-1 m-0">
+                <span class="text col-10">How do I cancel?</span>
+                <div class="col-2 text-right">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="faqbox row align-items-center w-100 mt-1">
+                <span class="text col-10">Is Netflix good for children?</span>
+                <div class="col-2 text-right">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="separation"></div>
+    
+    <div class="container">
+        <div class="col mt-5 pt-5 mb-0 pb-0 questions" style="color: white;">
+            Questions? Call <a href="#" style="color: white;">1800-1200-101-1852</a>
+          </div>
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
+          <div class="col mb-3">
+      
+          </div>
+
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <ul class="nav flex-column ajustify-content-center">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Invester Relations</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Jobs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Ways to Watch</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Terms of Use</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <ul class="nav flex-column justify-content-center">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Help Centre</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Account</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Speed Test</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Legal Notices</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-bodylight">Only on Netflix</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <ul class="nav flex-column justify-content-center">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Media Centre</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Privacy</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Cookie Preference</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Corporate</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Contact Us</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
